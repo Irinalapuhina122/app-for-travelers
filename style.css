@@ -1,0 +1,78 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    background-color:#CEE6F3(94, 97, 93, 0.9);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 725px;
+    border-radius: 40px;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    }
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    color:#65451F;
+    align-self: center;
+    }
+    
+input{
+    font-family: 'Oswald', sans-serif;
+    padding: 7px;
+    background-color:#EAC696;
+        border: none;
+        border-radius: 10px;
+    }
+
+#addMoney{ 
+    background-color:#EAC696;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    width: 500px;
+    }
+    
+#btn {
+    background-color:#EAC696;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    width: 500px;
+    }
+
+#option{
+    font-family: 'Oswald', sans-serif;
+        display: none;
+        width: 500px;
+}
+
+#TotalAmountcalculate{
+    display: flex;
+}
+
+#roomRateSplit, #optionSplit, #totalAmount{
+    font-family: 'Oswald', sans-serif;
+    background-color:#65451F;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+

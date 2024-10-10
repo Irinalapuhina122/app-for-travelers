@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https: //fonts.googleapis.com/css2?family= Освальд:wght@500 & family=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="container">
+       <h1>Hotel stay calculator</h1>
+       <form>
+
+       <p>Number of persons</p>
+       <input type="text" id="persons" placeholder="persons">
+
+       <p>Room rate</p>
+       <input type="text" id="rate" placeholder="rate">
+
+       <p>Additional options</p>
+       <button id="addMoney">Select an option</button>
+       <select id="option">
+        <option disabled>Select an option</option>
+        <option value="0.00" selected>only number</option>
+        <option value="0.10">+ breakfast 10%</option>
+        <option value="0.20">+spa and swimming pool 20%</option>
+        <option value="0.30">complex 30%</option>
+       </select>
+       <br>
+       <br>
+        <button id="btn">Calculate</button>
+    </form>
+<div id="TotalAmountcalculate">
+    <div id="roomRateSplit">
+        <p>Room rate</p>
+        <span>$</span>
+        <span id="dividedRoomRate"></span>
+        <span>per person</span>
+    </div>
+    <div id="optionSplit">
+        <p>Options</p>
+        <span>$</span>
+        <span id="dividedOption"></span>
+        <span>per person</span>
+    </div>
+    <div id="totalAmount">
+        <p>Total</p>
+        <span>$</span>
+        <span id="roomRateAndOption"></span>
+        <span>per person</span>
+    </div>
+</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>
